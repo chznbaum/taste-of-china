@@ -25,6 +25,7 @@ html {
 
 @media (max-width: 850px) {
   html {
+    background-size: auto;
     background-attachment: initial;
   }
 }
@@ -49,7 +50,6 @@ body {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   --primary-color: #F44336;
   --primary-light: #E57373;
   --primary-dark: #D32F2F;
@@ -67,12 +67,6 @@ body {
   --font-sans-serif: "Open Sans", sans-serif;
   color: var(--text-dark-primary);
   font-family: var(--font-sans-serif);
-}
-
-@media (max-width: 850px) {
-  body {
-    background-attachment: initial;
-  }
 }
 
 h2 {

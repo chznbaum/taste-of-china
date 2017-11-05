@@ -4,53 +4,12 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
-  /* background-image: url("../images/chinese_restaurant_x770.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; */
 }
-/*
-@media (-webkit-min-device-pixel-ratio: 2) {
-  html {
-    background-image: url('../images/chinese_restaurant_x1920_hd.jpg');
-  }
-}
-
-@media (min-width: 771px) and (max-width: 1280px) {
-  html {
-    background-image: url('../images/chinese_restaurant_x1280.jpg');
-  }
-}
-
-@media (max-width: 850px) {
-  html {
-    background-size: cover;
-    background-attachment: fixed;
-    z-index: -1;
-  }
-}
-
-@media (min-width: 1281px) and (max-width: 1920px) {
-  html {
-    background-image: url('../images/chinese_restaurant_x1920.jpg');
-  }
-}
-
-@media (min-width: 1921px) {
-  html {
-    background-image: url('../images/chinese_restaurant_x2560.jpg');
-  }
-}*/
 
 body {
   margin: 0;
   padding: 0;
   min-height: 100%;
-  /* background-color: rgba(0,0,0,0.7);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat; */
   --primary-color: #F44336;
   --primary-light: #E57373;
   --primary-dark: #D32F2F;
@@ -76,11 +35,35 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url("../images/chinese_restaurant_x1920.jpg");
+  background-image: url("../images/chinese_restaurant_x770.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   z-index: -2;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+  .background {
+    background-image: url('../images/chinese_restaurant_x1920_hd.jpg');
+  }
+}
+
+@media (min-width: 771px) and (max-width: 1280px) {
+  .background {
+    background-image: url('../images/chinese_restaurant_x1280.jpg');
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1920px) {
+  .background {
+    background-image: url('../images/chinese_restaurant_x1920.jpg');
+  }
+}
+
+@media (min-width: 1921px) {
+  .background {
+    background-image: url('../images/chinese_restaurant_x2560.jpg');
+  }
 }
 
 .background-overlay {

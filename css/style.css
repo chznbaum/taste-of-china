@@ -133,6 +133,10 @@ nav {
 }
 
 @media screen and (max-width: 850px) {
+  nav {
+    padding: .5em 5% .5em 5%;
+  }
+
   .nav-links {
     display: none;
   }
@@ -169,6 +173,13 @@ nav {
   margin-left: auto;
   font-size: 1.2em;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.3);
+}
+
+@media screen and (max-width: 850px) {
+  .hero {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 
 .hero h1  {
@@ -233,6 +244,28 @@ section.menu-section em.menu-description {
   text-align: center;
 }
 
+@media screen and (max-width: 850px) {
+  section.color-section {
+    margin: 0 5% 0 5%;
+  }
+
+  section.white-section {
+    margin: 0 5% 0 5%;
+  }
+
+  h1.menu-header {
+    margin: 2em 5% 0 5%;
+  }
+
+  section.menu-section {
+    margin: 2em 5% 2em 5%;
+  }
+
+  .menu-links {
+    margin: 1em 5% 0 5%;
+  }
+}
+
 .menu-links a {
   color: var(--text-light-primary);
 }
@@ -273,9 +306,15 @@ section.menu-section div.menu-card-wrapper div.menu-card {
   }
 }
 
+@media screen and (max-width: 850px) {
+  section.menu-section div.menu-card-wrapper div.menu-card {
+    width: calc(90% / 2);
+  }
+}
+
 @media screen and (max-width: 670px) {
   section.menu-section div.menu-card-wrapper div.menu-card {
-    width: 70%;
+    width: 90%;
   }
 }
 
@@ -310,6 +349,12 @@ div.spicy h3::before, span.spicy::before {
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.3);
 }
 
+@media screen and (max-width: 850px) {
+  .hot-and-spicy {
+    margin: 1em 5% 0 5%;
+  }
+}
+
 section.white-section h2 {
   margin-top: 0;
 }
@@ -340,6 +385,12 @@ section.reviews-section {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media screen and (max-width: 850px) {
+  section.reviews-section {
+    padding: 2em 5% 0 5%;
+  }
 }
 
 section.reviews-section h2 {
@@ -388,6 +439,12 @@ footer {
   align-items: center;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.3);
+}
+
+@media screen and (max-width: 850px) {
+  footer {
+    padding: 2em 5% 2em 5%;
+  }
 }
 
 footer a {

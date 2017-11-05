@@ -4,13 +4,13 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-image: url("../images/chinese_restaurant_x770.jpg");
+  /* background-image: url("../images/chinese_restaurant_x770.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; */
 }
-
+/*
 @media (-webkit-min-device-pixel-ratio: 2) {
   html {
     background-image: url('../images/chinese_restaurant_x1920_hd.jpg');
@@ -41,16 +41,16 @@ html {
   html {
     background-image: url('../images/chinese_restaurant_x2560.jpg');
   }
-}
+}*/
 
 body {
   margin: 0;
   padding: 0;
   min-height: 100%;
-  background-color: rgba(0,0,0,0.7);
+  /* background-color: rgba(0,0,0,0.7);
   background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   --primary-color: #F44336;
   --primary-light: #E57373;
   --primary-dark: #D32F2F;
@@ -68,6 +68,24 @@ body {
   --font-sans-serif: "Open Sans", sans-serif;
   color: var(--text-dark-primary);
   font-family: var(--font-sans-serif);
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/chinese_restaurant_x1920.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -2;
+}
+
+.background-overlay {
+  background-color: rgba(0,0,0,0.7);
+  z-index: -1;
 }
 
 h2 {

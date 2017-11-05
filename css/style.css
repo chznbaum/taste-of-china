@@ -23,6 +23,12 @@ html {
   }
 }
 
+@media (max-width: 850px) {
+  html {
+    background-attachment: initial;
+  }
+}
+
 @media (min-width: 1281px) and (max-width: 1920px) {
   html {
     background-image: url('../images/chinese_restaurant_x1920.jpg');
@@ -61,6 +67,12 @@ body {
   --font-sans-serif: "Open Sans", sans-serif;
   color: var(--text-dark-primary);
   font-family: var(--font-sans-serif);
+}
+
+@media (max-width: 850px) {
+  body {
+    background-attachment: initial;
+  }
 }
 
 h2 {
@@ -148,7 +160,7 @@ nav {
 
 @media screen and (max-width: 500px) {
   .nav-brand {
-    font-size: 1.25em;
+    font-size: 1.5em;
   }
   
   .call-now {
@@ -158,6 +170,7 @@ nav {
   .call-mobile {
     display: inline-block;
     font-weight: bold;
+    font-size: 1.25em;
   }
 }
 
